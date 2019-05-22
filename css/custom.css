@@ -1,0 +1,69 @@
+/* Form */
+.hint-block {
+	margin: 10px 0;
+}
+.hint-block:first-child,
+.control-label~.hint-block {
+	margin-top: 0;
+}
+.hint-block:last-child {
+	margin-bottom: 0;
+}
+
+/* =SubLayout Menu
+-------------------------------------------------------------- */
+.list-group a {
+	color: #495057;
+}
+
+/* =Content Menu
+-------------------------------------------------------------- */
+ul.content-menu {
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.content-menu li {
+	float: left;
+	margin-left: 1rem;
+}
+ul.content-menu li:first-child,
+ul.content-menu li:first-child:last-child {
+	margin-left: 0;
+}
+ul.content-menu i.fa {
+	margin-right: 4px;
+}
+
+/* =Form
+-------------------------------------------------------------- */
+.form-check .form-check-label {
+	max-width: 100% !important;
+	padding-left: 0;
+}
+
+/* Selectize */
+.selectize-control.form-control,
+.selectize-control .selectize-dropdown {
+	padding: 0;
+}
+.selectize-control.form-control {
+	border: none;
+}
+.selectize-control .selectize-dropdown {
+	height: auto;
+}
+.selectize-dropdown .option,
+.selectize-dropdown .optgroup-header,
+.selectize-dropdown .create {
+  padding: 5px 8px;
+}
+.selectize-input {
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.selectize-control.single .selectize-input {
+	border: 1px solid #dbdfe4;
+}
