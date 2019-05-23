@@ -103,6 +103,7 @@
                         <!-- Navbar Brand -->
                         <a href="index.html" class="navbar-brand ">
                             <img class="navbar-brand-icon" src="assets/images/stack-logo-white.svg" width="22" alt="Stack">
+                                                    
                             <span>Stack</span>
                         </a>
 
@@ -141,7 +142,7 @@
                                             <div class="dropdown-item d-flex">
                                                 <div class="mr-3">
                                                     <div class="avatar avatar-sm" style="width: 32px; height: 32px;">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                 </div>
                                                 <div class="flex">
@@ -180,7 +181,7 @@
                                             <div class="dropdown-item d-flex">
                                                 <div class="mr-3">
                                                     <div class="avatar avatar-sm" style="width: 32px; height: 32px;">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                 </div>
                                                 <div class="flex">
@@ -219,7 +220,7 @@
                                             <div class="dropdown-item d-flex">
                                                 <div class="mr-3">
                                                     <div class="avatar avatar-sm" style="width: 32px; height: 32px;">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                 </div>
                                                 <div class="flex">
@@ -265,7 +266,7 @@
                         <ul class="nav navbar-nav d-none d-sm-flex border-left navbar-height align-items-center">
                             <li class="nav-item dropdown">
                                 <a href="#account_menu" class="nav-link dropdown-toggle" data-toggle="dropdown" data-caret="false">
-                                    <img src="assets/images/avatar/demi.png" class="rounded-circle" width="32" alt="Frontted">
+                                    <img src="<?php echo base_url('assets/images/avatar/demi.png')?>" class="rounded-circle" width="32" alt="Frontted">
                                     <span class="ml-1 d-flex-inline">
                                         <span class="text-light">Adrian D.</span>
                                     </span>
@@ -494,7 +495,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_rsz_1andy-lee-642320-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_rsz_1andy-lee-642320-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
 
 
@@ -519,7 +520,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
 
 
@@ -544,7 +545,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_jeremy-banks-798787-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
 
 
@@ -569,7 +570,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_joao-silas-636453-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_joao-silas-636453-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
 
 
@@ -594,7 +595,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
 
 
@@ -624,7 +625,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_rsz_1andy-lee-642320-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_rsz_1andy-lee-642320-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Sherri J. Cardenas</strong>
 
@@ -645,7 +646,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Joseph S. Ferland</strong>
 
@@ -666,7 +667,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_jeremy-banks-798787-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Bryan K. Davis</strong>
 
@@ -687,7 +688,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_joao-silas-636453-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_joao-silas-636453-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Kaci M. Langston</strong>
 
@@ -708,7 +709,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_michael-dam-258165-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_michael-dam-258165-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1"></strong>
 
@@ -732,7 +733,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_rsz_1andy-lee-642320-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_rsz_1andy-lee-642320-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Jenell D. Matney</strong>
 
@@ -753,7 +754,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Sherri J. Cardenas</strong>
 
@@ -774,7 +775,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_jeremy-banks-798787-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_jeremy-banks-798787-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Joseph S. Ferland</strong>
 
@@ -795,7 +796,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_joao-silas-636453-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_joao-silas-636453-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Bryan K. Davis</strong>
 
@@ -816,7 +817,7 @@
                                                 <div class="flex">
                                                     <div class="d-flex align-items-middle">
                                                         <div class="avatar avatar-xxs mr-1">
-                                                            <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                            <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                         </div>
                                                         <strong class="text-15pt mr-1">Kaci M. Langston</strong>
 
@@ -1072,7 +1073,7 @@
 
                                                 <div class="media align-items-center">
                                                     <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                     <div class="media-body">
 
@@ -1108,7 +1109,7 @@
                                             <td>
 
                                                 <div class="media align-items-center">
-                                                    <img src="assets/images/green.svg" class="mr-2" alt="avatar" />
+                                                    <img src="<?php echo base_url('assets/images/green.svg')?>" class="mr-2" alt="avatar" />
                                                     <div class="media-body">
 
                                                         <span class="js-lists-values-employee-name">Connie Smith</span>
@@ -1145,7 +1146,7 @@
                                                 <div class="media align-items-center">
 
                                                     <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                     <div class="media-body">
 
@@ -1183,7 +1184,7 @@
 
                                                 <div class="media align-items-center">
                                                     <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                     <div class="media-body">
 
@@ -1219,7 +1220,7 @@
                                             <td>
 
                                                 <div class="media align-items-center">
-                                                    <img src="assets/images/green.svg" class="mr-2" alt="avatar" />
+                                                    <img src="<?php echo base_url('assets/images/green.svg')?>" class="mr-2" alt="avatar" />
                                                     <div class="media-body">
 
                                                         <span class="js-lists-values-employee-name">Connie Smith</span>
@@ -1256,7 +1257,7 @@
                                                 <div class="media align-items-center">
 
                                                     <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
+                                                        <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar" class="avatar-img rounded-circle">
                                                     </div>
                                                     <div class="media-body">
 
@@ -1304,7 +1305,7 @@
                             <div class="d-flex align-items-center sidebar-p-a border-bottom sidebar-account">
                                 <a href="profile.html" class="flex d-flex align-items-center text-underline-0 text-body">
                                     <span class="avatar mr-3">
-                                        <img src="assets/images/demi.png" alt="avatar" class="avatar-img rounded-circle">
+                                        <img src="<?php echo base_url('assets/images/demi.png')?>" alt="avatar" class="avatar-img rounded-circle">
                                     </span>
                                     <span class="flex d-flex flex-column">
                                         <strong>Adrian Demian</strong>
@@ -1337,17 +1338,17 @@
                                     </a>
                                     <ul class="sidebar-submenu collapse show " id="dashboards_menu">
                                         <li class="sidebar-menu-item active">
-                                            <a class="sidebar-menu-button" href="index.html">
+                                            <a class="sidebar-menu-button" href="index.php">
                                                 <span class="sidebar-menu-text">Default</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="staff.html">
+                                            <a class="sidebar-menu-button" href="<?php echo base_url('staff.php')?>">
                                                 <span class="sidebar-menu-text">CRM/Staff</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="analytics.html">
+                                            <a class="sidebar-menu-button" href="<?php echo base_url('analytics.php')?>">
                                                 <span class="sidebar-menu-text">E-commerce</span>
                                             </a>
                                         </li>
@@ -1875,8 +1876,8 @@
 
     <!-- Vector Maps -->
     <script src="<?php echo base_url('assets/vendor/jqvmap/jquery.vmap.min.js')?>"></script>
-    <script src="<?php echo base_urlassets/vendor/jqvmap/maps/jquery.vmap.world.js')?>"></script>
-    <script src="<?php echo base_urlassets/js/vector-maps.js')?>"></script>
+    <script src="<?php echo base_url('assets/vendor/jqvmap/maps/jquery.vmap.world.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/vector-maps.js')?>"></script>
 
 </body>
 

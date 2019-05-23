@@ -6,25 +6,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Staff</title>
+    <title>Analytics Dashboard</title>
 
     <!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex">
 
     <!-- Simplebar -->
-    <link type="text/css" href="<?php echo base_url('assets/vendor/simplebar.min.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/vendor/simplebar.min.css" rel="stylesheet">
 
     <!-- App CSS -->
-    <link type="text/css" href="<?php echo base_url('assets/css/app.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/app.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/app.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/app.rtl.css" rel="stylesheet">
 
     <!-- Material Design Icons -->
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-material-icons.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-material-icons.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/vendor-material-icons.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/vendor-material-icons.rtl.css" rel="stylesheet">
 
     <!-- Font Awesome FREE Icons -->
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-fontawesome-free.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-fontawesome-free.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/vendor-fontawesome-free.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/vendor-fontawesome-free.rtl.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133433427-1"></script>
@@ -63,7 +63,6 @@
 
 
 
-
 </head>
 
 <body class="layout-default">
@@ -80,7 +79,7 @@
 
 
 
-    <div class="preloader"></div>
+    <div class=""></div>
 
     <!-- Header Layout -->
     <div class="mdk-header-layout js-mdk-header-layout">
@@ -300,362 +299,171 @@
                 <div class="mdk-drawer-layout__content page">
 
 
-                    <div class="container-fluid page__heading-container">
+
+
+
+
+
+                    <div class="container-fluid page__container">
                         <div class="page__heading d-flex align-items-center">
                             <div class="flex">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb mb-0">
                                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Staff</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Analytics</li>
                                     </ol>
                                 </nav>
-                                <h1 class="m-0">Staff</h1>
+                                <h1 class="m-0">E-commerce</h1>
                             </div>
-                            <a href="" class="btn btn-success ml-3">Add Staff</a>
+                            <a href="" class="btn btn-success ml-3">Add Product</a>
                         </div>
                     </div>
 
-                    <div class="container-fluid page__container">
-                        <div class="row card-group-row">
-                            <div class="col-lg-4 col-md-6 card-group-row__col">
-                                <div class="card card-group-row__card">
-                                    <div class="card-body-x-lg card-body d-flex flex-row align-items-center">
-                                        <div class="flex">
-                                            <div class="card-header__title text-muted mb-2 d-flex">Budget <span class="badge badge-warning ml-2">20%</span></div>
-                                            <span class="h4 m-0">&dollar;24,000 <small class="text-muted"> / &dollar;50,000</small> </span>
-                                        </div>
-                                        <div><i class="material-icons icon-muted icon-40pt ml-3">monetization_on</i></div>
-                                    </div>
-                                    <div class="progress" style="height: 3px;">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 card-group-row__col">
-                                <div class="card card-group-row__card">
-                                    <div class="card-body-x-lg card-body d-flex flex-row align-items-center">
-                                        <div class="flex">
-                                            <div class="card-header__title text-muted d-flex mb-2">Current Target <span class="badge badge-primary ml-2">2018</span></div>
-                                            <span class="h4 m-0">&dollar;50,000 </span>
-                                        </div>
-                                        <div><i class="material-icons icon-muted icon-40pt ml-3">gps_fixed</i></div>
-                                    </div>
-                                    <div class="progress" style="height: 3px;">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 card-group-row__col">
-                                <div class="card card-group-row__card">
-                                    <div class="card-body-x-lg card-body d-flex flex-row align-items-center">
-                                        <div class="flex">
-                                            <div class="card-header__title text-muted mb-2">Top Grossing</div>
 
-                                            <div class="d-flex align-items-center">
-                                                <div class="h4 m-0">&dollar;13,531 </div>
-                                                <div class="progress ml-1" style="width:100%;height: 3px;">
-                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
+
+
+                    <div class="container-fluid page__container">
+
+
+                        <div class="card-group">
+                            <div class="card card-body text-center">
+
+                                <div class="d-flex flex-row align-items-center">
+                                    <div class="card-header__title m-0"> <i class="material-icons icon-muted icon-30pt">assessment</i> Visits</div>
+                                    <div class="text-amount ml-auto">3,642</div>
+                                </div>
+                            </div>
+                            <div class="card card-body text-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    <div class="card-header__title m-0"><i class="material-icons icon-muted icon-30pt">shopping_basket</i> Purchases</div>
+                                    <div class="text-amount ml-auto">&dollar;12,311</div>
+                                </div>
+                            </div>
+                            <div class="card card-body text-center">
+                                <div class="d-flex flex-row align-items-center">
+                                    <div class="card-header__title m-0"><i class="material-icons  icon-muted icon-30pt">perm_identity</i> Customers</div>
+                                    <div class="text-amount ml-auto">78</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card card-form d-flex flex-column flex-sm-row">
+                            <div class="card-form__body card-body-form-group flex">
+                                <div class="row">
+                                    <div class="col-sm-auto">
+                                        <div class="form-group">
+                                            <label for="filter_name">Name</label>
+                                            <input id="filter_name" type="text" class="form-control" placeholder="Search by name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-auto">
+                                        <div class="form-group">
+                                            <label for="filter_category">Category</label><br>
+                                            <select id="filter_category" class="custom-select" style="width: 200px;">
+                                                <option value="all">All Categories</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-auto">
+                                        <div class="form-group">
+                                            <label for="filter_stock">In stock?</label>
+                                            <div class="custom-control custom-checkbox mt-sm-2">
+                                                <input type="checkbox" class="custom-control-input" id="filter_stock" checked="">
+                                                <label class="custom-control-label" for="filter_stock">Yes</label>
                                             </div>
                                         </div>
-                                        <div><i class="material-icons icon-muted icon-40pt ml-3">contacts</i></div>
+                                    </div>
+                                    <div class="col-sm-auto">
+                                        <div class="form-group" style="width: 200px;">
+                                            <label for="filter_date">Order date</label>
+                                            <input id="filter_date" type="text" class="form-control" placeholder="Select date ..." value="13/03/2018 to 20/03/2018" data-toggle="flatpickr" data-flatpickr-mode="range" data-flatpickr-alt-format="d/m/Y" data-flatpickr-date-format="d/m/Y">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn bg-white border-left border-top border-top-sm-0 rounded-top-0 rounded-top-sm rounded-left-sm-0"><i class="material-icons text-primary icon-20pt">refresh</i></button>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center text-center mb-4">
+                                            <div class="border-right pr-4 mr-4">
+                                                <div class="mb-0">Total Views</div>
+                                                <div class="text-amount">4,412</div>
+                                            </div>
+                                            <div>
+                                                <div class="mb-0">Conv. Ratio</div>
+                                                <div class="text-amount">4%</div>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="#" class="btn btn-primary">Export Data <i class="material-icons">file_download</i></a>
+                                            </div>
+                                        </div>
+                                        <div class="chart" style="height: 295px;">
+                                            <canvas id="viewsChart">
+                                                <span style="font-size: 1rem;"><strong>Views</strong> area chart goes here.</span>
+                                            </canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="card">
+                                    <div class="card-header card-header-large bg-white d-flex align-items-center">
+                                        <div class="flatpickr-wrapper flex">
+                                            <div id="recent_orders_date" data-toggle="flatpickr" data-flatpickr-wrap="true" data-flatpickr-static="true" data-flatpickr-mode="range" data-flatpickr-alt-format="d/m/Y" data-flatpickr-date-format="d/m/Y">
+                                                <h4 class="card-header__title">Recent Orders</h4>
+                                                <a href="javascript:void(0)" class="link-date" data-toggle>13/03/2018 to 20/03/2018</a>
+                                                <input class="d-none" type="hidden" value="13/03/2018 to 20/03/2018" data-input>
+                                            </div>
+                                        </div>
+                                        <i class="material-icons icon-muted">help_outline</i>
+                                    </div>
+                                    <div class="card-body py-0">
+                                        <div class="list-group list-group-small list-group-flush">
+
+                                            <div class="list-group-item d-flex align-items-center px-0">
+                                                <div class="mr-3 flex"> <i class="material-icons icon-18pt icon-muted">contacts</i> Sherri J. Cardenas</div>
+                                                <div class="mr-3 text-dark-gray">3 days ago</div>
+                                                <div><a href="">&dollar;123</a></div>
+                                            </div>
+
+                                            <div class="list-group-item d-flex align-items-center px-0">
+                                                <div class="mr-3 flex"> <i class="material-icons icon-18pt icon-muted">contacts</i> Joseph S. Ferland</div>
+                                                <div class="mr-3 text-dark-gray">2 days ago</div>
+                                                <div><a href="">&dollar;246</a></div>
+                                            </div>
+
+                                            <div class="list-group-item d-flex align-items-center px-0">
+                                                <div class="mr-3 flex"> <i class="material-icons icon-18pt icon-muted">contacts</i> Bryan K. Davis</div>
+                                                <div class="mr-3 text-dark-gray">1 day ago</div>
+                                                <div><a href="">&dollar;369</a></div>
+                                            </div>
+
+                                            <div class="list-group-item d-flex align-items-center px-0">
+                                                <div class="mr-3 flex"> <i class="material-icons icon-18pt icon-muted">contacts</i> Elizabeth J. Ohara</div>
+                                                <div class="mr-3 text-dark-gray">4 hours ago</div>
+                                                <div><a href="">&dollar;492</a></div>
+                                            </div>
+
+                                            <div class="list-group-item d-flex align-items-center px-0">
+                                                <div class="mr-3 flex"> <i class="material-icons icon-18pt icon-muted">contacts</i> Kaci M. Langston</div>
+                                                <div class="mr-3 text-dark-gray">just now</div>
+                                                <div><a href="">&dollar;615</a></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-footer text-center">
+                                        <a class="text-muted" href="">View All (54)</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header bg-white d-flex align-items-center">
-                                <h4 class="card-header__title mb-0">Earnings</h4>
-                                <div class="flatpickr-wrapper flatpickr-calendar-right d-flex ml-auto">
-                                    <div id="recent_orders_date" data-toggle="flatpickr" data-flatpickr-wrap="true" data-flatpickr-static="true" data-flatpickr-mode="range" data-flatpickr-alt-format="d/m/Y" data-flatpickr-date-format="d/m/Y">
-                                        <a href="javascript:void(0)" class="link-date" data-toggle>13/03/2018 to 20/03/2018</a>
-                                        <input class="d-none" type="hidden" value="13/03/2018 to 20/03/2018" data-input>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div class="chart">
-                                    <canvas id="ordersChart" class="chart-canvas"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <form class="form-inline">
-                                    <label class="mr-sm-2" for="inlineFormFilterBy">Filter by:</label>
-                                    <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormFilterBy" placeholder="Type a name">
-
-                                    <label class="sr-only" for="inlineFormRole">Role</label>
-                                    <select id="inlineFormRole" class="custom-select mb-2 mr-sm-2 mb-sm-0">
-                                        <option value="All Roles">All Roles</option>
-                                    </select>
-
-                                    <div class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
-                                        <input type="checkbox" class="custom-control-input" id="inlineFormPurchase">
-                                        <label class="custom-control-label" for="inlineFormPurchase">Made a Purchase?</label>
-                                    </div>
-                                </form>
-                            </div>
-
-
-                            <div class="table-responsive border-bottom" data-toggle="lists" data-lists-values='["js-lists-values-employee-name"]'>
-
-                                <table class="table mb-0 thead-border-top-0">
-                                    <thead>
-                                        <tr>
-
-                                            <th style="width: 18px;">
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-toggle-check-all" data-target="#staff" id="customCheckAll">
-                                                    <label class="custom-control-label" for="customCheckAll"><span class="text-hide">Toggle all</span></label>
-                                                </div>
-                                            </th>
-
-                                            <th>Employee</th>
-                                            <th style="width: 150px;">Current Employer</th>
-                                            <th style="width: 48px;">Projects</th>
-                                            <th style="width: 37px;">Status</th>
-                                            <th style="width: 120px;">Last Activity</th>
-                                            <th style="width: 51px;">Earnings</th>
-                                            <th style="width: 24px;"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="list" id="staff">
-
-                                        <tr class="selected">
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" checked="" id="customCheck1_1">
-                                                    <label class="custom-control-label" for="customCheck1_1"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-                                                    <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
-                                                    </div>
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">Michael Smith</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="">Black Ops</a>
-                                                    <a href="#" class="rating-link"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>12</td>
-                                            <td><span class="badge badge-warning">ADMIN</span></td>
-                                            <td><small class="text-muted">3 days ago</small></td>
-                                            <td>&dollar;12,402</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-                                        <tr>
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" id="customCheck2_1">
-                                                    <label class="custom-control-label" for="customCheck2_1"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-                                                    <img src="<?php echo base_url('assets/images/avatar/green.svg')?>" class="mr-2" alt="avatar" />
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">Connie Smith</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="#">Backend Ltd</a>
-                                                    <a href="#" class="rating-link active"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>42</td>
-                                            <td><span class="badge badge-success">USER</span></td>
-                                            <td><small class="text-muted">1 week ago</small></td>
-                                            <td>&dollar;1,943</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-                                        <tr>
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" id="customCheck3_1">
-                                                    <label class="custom-control-label" for="customCheck3_1"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-
-                                                    <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
-                                                    </div>
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">John Connor</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="">Frontted</a>
-                                                    <a href="#" class="rating-link" onclick="document.getElementById('box').classList.toggle('grow');"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>42</td>
-                                            <td><span class="badge badge-primary">MANAGER</span></td>
-                                            <td><small class="text-muted">1 week ago</small></td>
-                                            <td>&dollar;1,943</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-
-                                        <tr class="selected">
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" checked="" id="customCheck1_2">
-                                                    <label class="custom-control-label" for="customCheck1_2"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-                                                    <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
-                                                    </div>
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">Michael Smith</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="">Black Ops</a>
-                                                    <a href="#" class="rating-link"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>12</td>
-                                            <td><span class="badge badge-warning">ADMIN</span></td>
-                                            <td><small class="text-muted">3 days ago</small></td>
-                                            <td>&dollar;12,402</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-                                        <tr>
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" id="customCheck2_2">
-                                                    <label class="custom-control-label" for="customCheck2_2"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-                                                    <img src="assets/images/avatar/green.svg" class="mr-2" alt="avatar" />
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">Connie Smith</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="#">Backend Ltd</a>
-                                                    <a href="#" class="rating-link active"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>42</td>
-                                            <td><span class="badge badge-success">USER</span></td>
-                                            <td><small class="text-muted">1 week ago</small></td>
-                                            <td>&dollar;1,943</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-                                        <tr>
-
-                                            <td>
-                                                <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input js-check-selected-row" id="customCheck3_2">
-                                                    <label class="custom-control-label" for="customCheck3_2"><span class="text-hide">Check</span></label>
-                                                </div>
-                                            </td>
-
-                                            <td>
-
-                                                <div class="media align-items-center">
-
-                                                    <div class="avatar avatar-xs mr-2">
-                                                        <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar" class="avatar-img rounded-circle">
-                                                    </div>
-                                                    <div class="media-body">
-
-                                                        <span class="js-lists-values-employee-name">John Connor</span>
-
-                                                    </div>
-                                                </div>
-
-                                            </td>
-
-                                            <td>
-                                                <div class="media align-items-center">
-                                                    <a href="">Frontted</a>
-                                                    <a href="#" class="rating-link" onclick="document.getElementById('box').classList.toggle('grow');"><i class="material-icons ml-2">star</i></a>
-                                                </div>
-                                            </td>
-
-                                            <td>42</td>
-                                            <td><span class="badge badge-primary">MANAGER</span></td>
-                                            <td><small class="text-muted">1 week ago</small></td>
-                                            <td>&dollar;1,943</td>
-                                            <td><a href="" class="text-muted"><i class="material-icons">more_vert</i></a></td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div class="card-body text-right">
-                                15 <span class="text-muted">of 1,430</span> <a href="#" class="text-muted-light"><i class="material-icons ml-1">arrow_forward</i></a>
-                            </div>
-
-
-                        </div>
                     </div>
 
 
@@ -701,17 +509,17 @@
                                     </a>
                                     <ul class="sidebar-submenu collapse show " id="dashboards_menu">
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="<?php echo base_url('index.php/admin')?>">
+                                            <a class="sidebar-menu-button" href="index.php">
                                                 <span class="sidebar-menu-text">Default</span>
                                             </a>
                                         </li>
-                                        <li class="sidebar-menu-item active">
+                                        <li class="sidebar-menu-item">
                                             <a class="sidebar-menu-button" href="staff.php">
                                                 <span class="sidebar-menu-text">CRM/Staff</span>
                                             </a>
                                         </li>
-                                        <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="<?php echo base_url('analytics.php')?>">
+                                        <li class="sidebar-menu-item active">
+                                            <a class="sidebar-menu-button" href="analytics.php">
                                                 <span class="sidebar-menu-text">E-commerce</span>
                                             </a>
                                         </li>
@@ -854,22 +662,22 @@
                                     </a>
                                     <ul class="sidebar-submenu collapse" id="layouts_menu">
                                         <li class="sidebar-menu-item active">
-                                            <a class="sidebar-menu-button" href="staff.html">
+                                            <a class="sidebar-menu-button" href="analytics.html">
                                                 <span class="sidebar-menu-text">Default</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="fluid-staff.html">
+                                            <a class="sidebar-menu-button" href="fluid-analytics.html">
                                                 <span class="sidebar-menu-text">Full Width Navs</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="fixed-staff.html">
+                                            <a class="sidebar-menu-button" href="fixed-analytics.html">
                                                 <span class="sidebar-menu-text">Fixed Navs</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="mini-staff.html">
+                                            <a class="sidebar-menu-button" href="mini-analytics.html">
                                                 <span class="sidebar-menu-text">Mini Sidebar + Navs</span>
                                             </a>
                                         </li>
@@ -998,34 +806,34 @@
     <!-- App Settings FAB -->
     <div id="app-settings">
         <app layout-active="default" :layout-location="{
-      'default': 'staff.html',
-      'fixed': 'fixed-staff.html',
-      'fluid': 'fluid-staff.html',
-      'mini': 'mini-staff.html'
+      'default': 'analytics.html',
+      'fixed': 'fixed-analytics.html',
+      'fluid': 'fluid-analytics.html',
+      'mini': 'mini-analytics.html'
     }"></app>
     </div>
 
     <!-- jQuery -->
-    <script src="<?php echo base_url('assets/vendor/jquery.min.js')?>"></script>
+    <script src="assets/vendor/jquery.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="<?php echo base_url('assets/vendor/popper.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/vendor/bootstrap.min.js')?>"></script>
+    <script src="assets/vendor/popper.min.js')?>"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
 
     <!-- Simplebar -->
-    <script src="<?php echo base_url('assets/vendor/simplebar.min.js')?>"></script>
+    <script src="assets/vendor/simplebar.min.js"></script>
 
     <!-- DOM Factory -->
-    <script src="<?php echo base_url('assets/vendor/dom-factory.js')?>"></script>
+    <script src="assets/vendor/dom-factory.js"></script>
 
     <!-- MDK -->
-    <script src="<?php echo base_url('assets/vendor/material-design-kit.js')?>"></script>
+    <script src="assets/vendor/material-design-kit.js"></script>
 
     <!-- App -->
-    <script src="<?php echo base_url('assets/js/toggle-check-all.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/check-selected-row.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/dropdown.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/sidebar-mini.js')?>"></script>
+    <script src="assets/js/toggle-check-all.js"></script>
+    <script src="assets/js/check-selected-row.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/sidebar-mini.js"></script>
 
     <script>
         (function() {
@@ -1087,42 +895,66 @@
     </script>
 
     <!-- App Settings (safe to remove) -->
-    <script src="<?php echo base_url('assets/js/app-settings.js')?>"></script>
+    <script src="assets/js/app-settings.js"></script>
 
 
 
     <!-- Flatpickr -->
-    <script src="<?php echo base_url('assets/vendor/flatpickr/flatpickr.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/flatpickr.js')?>"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
+    <script src="assets/js/flatpickr.js"></script>
 
     <!-- Global Settings -->
-    <script src="<?php echo base_url('assets/js/settings.js')?>"></script>
+    <script src="assets/js/settings.js"></script>
 
+    <!-- Moment.js -->
+    <script src="assets/vendor/moment.min.js"></script>
+    <script src="assets/vendor/moment-range.js"></script>
+    <script>
+        (function() {
+            'use strict';
+            window['moment-range'].extendMoment(moment);
+        })()
+    </script>
 
     <!-- Chart.js -->
-    <script src="<?php echo base_url('assets/vendor/Chart.min.js')?>"></script>
+    <script src="assets/vendor/Chart.min.js"></script>
 
-    <!-- UI Charts Page JS -->
-    <script src="<?php echo base_url('assets/js/chartjs-rounded-bar.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/charts.js')?>"></script>
+    <!-- App Charts JS -->
+    <script src="assets/js/charts.js"></script>
 
-    <!-- Chart.js Samples -->
+    <!-- Chart Samples -->
     <script>
         (function() {
             'use strict';
 
             Charts.init()
 
-            var Orders = function(id, type = 'roundedBar', options = {}) {
+            var Views = function(id, type = 'line', options = {}) {
                 options = Chart.helpers.merge({
-                    barRoundness: 1.2,
+                    elements: {
+                        line: {
+                            fill: 'start',
+                            backgroundColor: settings.charts.colors.area,
+                            tension: 0,
+                            borderWidth: 1
+                        },
+                        point: {
+                            pointStyle: 'circle',
+                            radius: 5,
+                            hoverRadius: 5,
+                            backgroundColor: settings.colors.white,
+                            borderColor: settings.colors.primary[700],
+                            borderWidth: 2
+                        }
+                    },
                     scales: {
-                        yAxes: [{
-                            ticks: {
-                                callback: function(a) {
-                                    if (!(a % 10))
-                                        return "$" + a + "k"
-                                }
+                        xAxes: [{
+                            gridLines: {
+                                display: false
+                            },
+                            type: 'time',
+                            time: {
+                                unit: 'day'
                             }
                         }]
                     },
@@ -1132,17 +964,32 @@
                                 var t = e.datasets[a.datasetIndex].label || "",
                                     o = a.yLabel,
                                     r = "";
-                                return 1 < e.datasets.length && (r += '<span class="popover-body-label mr-auto">' + t + "</span>"), r += '<span class="popover-body-value">$' + o + "k</span>"
+                                return 1 < e.datasets.length && (r += '<span class="popover-body-label mr-auto">' + t + "</span>"), r += '<span class="popover-body-value">' + o + " views</span>"
                             }
                         }
                     }
                 }, options)
 
+                var data = []
+
+                // Create a date range for the last 7 days
+                var start = moment().subtract(7, 'days').format('YYYY-MM-DD') // 7 days ago
+                var end = moment().format('YYYY-MM-DD') // today
+                var range = moment.range(start, end)
+
+                // Create the graph data
+                // Iterate the date range and assign a random value for each day
+                for (let moment of range.by('days')) {
+                    data.push({
+                        y: Math.floor(Math.random() * 300) + 10,
+                        x: moment.toDate()
+                    })
+                }
+
                 var data = {
-                    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
                     datasets: [{
-                        label: "Sales",
-                        data: [25, 20, 30, 22, 17, 10, 18, 26, 28, 26, 20, 32]
+                        label: "All Views",
+                        data
                     }]
                 }
 
@@ -1152,11 +999,11 @@
             ///////////////////
             // Create Charts //
             ///////////////////
-
-            Orders('#ordersChart')
+            Views('#viewsChart')
 
         })()
     </script>
+
 
 </body>
 

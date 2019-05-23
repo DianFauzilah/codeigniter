@@ -12,19 +12,19 @@
     <meta name="robots" content="noindex">
 
     <!-- Simplebar -->
-    <link type="text/css" href="<?php echo base_url('assets/vendor/simplebar.min.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/vendor/simplebar.min.css" rel="stylesheet">
 
     <!-- App CSS -->
-    <link type="text/css" href="<?php echo base_url('assets/css/app.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/app.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/app.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/app.rtl.css" rel="stylesheet">
 
     <!-- Material Design Icons -->
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-material-icons.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-material-icons.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/vendor-material-icons.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/vendor-material-icons.rtl.css" rel="stylesheet">
 
     <!-- Font Awesome FREE Icons -->
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-fontawesome-free.css" rel="stylesheet')?>">
-    <link type="text/css" href="<?php echo base_url('assets/css/vendor-fontawesome-free.rtl.css" rel="stylesheet')?>">
+    <link type="text/css" href="assets/css/vendor-fontawesome-free.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/vendor-fontawesome-free.rtl.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133433427-1"></script>
@@ -473,7 +473,7 @@
                                             <td>
 
                                                 <div class="media align-items-center">
-                                                    <img src="<?php echo base_url('assets/images/avatar/green.svg')?>" class="mr-2" alt="avatar" />
+                                                    <img src="assets/images/avatar/green.svg" class="mr-2" alt="avatar" />
                                                     <div class="media-body">
 
                                                         <span class="js-lists-values-employee-name">Connie Smith</span>
@@ -701,17 +701,17 @@
                                     </a>
                                     <ul class="sidebar-submenu collapse show " id="dashboards_menu">
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="<?php echo base_url('index.php/admin')?>">
+                                            <a class="sidebar-menu-button" href="index.html">
                                                 <span class="sidebar-menu-text">Default</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item active">
-                                            <a class="sidebar-menu-button" href="staff.php">
+                                            <a class="sidebar-menu-button" href="staff.html">
                                                 <span class="sidebar-menu-text">CRM/Staff</span>
                                             </a>
                                         </li>
                                         <li class="sidebar-menu-item">
-                                            <a class="sidebar-menu-button" href="<?php echo base_url('analytics.php')?>">
+                                            <a class="sidebar-menu-button" href="analytics.html">
                                                 <span class="sidebar-menu-text">E-commerce</span>
                                             </a>
                                         </li>
@@ -1006,26 +1006,26 @@
     </div>
 
     <!-- jQuery -->
-    <script src="<?php echo base_url('assets/vendor/jquery.min.js')?>"></script>
+    <script src="assets/vendor/jquery.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="<?php echo base_url('assets/vendor/popper.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/vendor/bootstrap.min.js')?>"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
 
     <!-- Simplebar -->
-    <script src="<?php echo base_url('assets/vendor/simplebar.min.js')?>"></script>
+    <script src="assets/vendor/simplebar.min.js"></script>
 
     <!-- DOM Factory -->
-    <script src="<?php echo base_url('assets/vendor/dom-factory.js')?>"></script>
+    <script src="assets/vendor/dom-factory.js"></script>
 
     <!-- MDK -->
-    <script src="<?php echo base_url('assets/vendor/material-design-kit.js')?>"></script>
+    <script src="assets/vendor/material-design-kit.js"></script>
 
     <!-- App -->
-    <script src="<?php echo base_url('assets/js/toggle-check-all.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/check-selected-row.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/dropdown.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/sidebar-mini.js')?>"></script>
+    <script src="assets/js/toggle-check-all.js"></script>
+    <script src="assets/js/check-selected-row.js"></script>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="assets/js/sidebar-mini.js"></script>
 
     <script>
         (function() {
@@ -1087,24 +1087,24 @@
     </script>
 
     <!-- App Settings (safe to remove) -->
-    <script src="<?php echo base_url('assets/js/app-settings.js')?>"></script>
+    <script src="assets/js/app-settings.js"></script>
 
 
 
     <!-- Flatpickr -->
-    <script src="<?php echo base_url('assets/vendor/flatpickr/flatpickr.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/flatpickr.js')?>"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
+    <script src="assets/js/flatpickr.js"></script>
 
     <!-- Global Settings -->
-    <script src="<?php echo base_url('assets/js/settings.js')?>"></script>
+    <script src="assets/js/settings.js"></script>
 
 
     <!-- Chart.js -->
-    <script src="<?php echo base_url('assets/vendor/Chart.min.js')?>"></script>
+    <script src="assets/vendor/Chart.min.js"></script>
 
     <!-- UI Charts Page JS -->
-    <script src="<?php echo base_url('assets/js/chartjs-rounded-bar.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/charts.js')?>"></script>
+    <script src="assets/js/chartjs-rounded-bar.js"></script>
+    <script src="assets/js/charts.js"></script>
 
     <!-- Chart.js Samples -->
     <script>
