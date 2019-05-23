@@ -1723,7 +1723,7 @@
     </script>
 
     <!-- App Settings (safe to remove) -->
-    <script src="assets/js/app-settings.js"></script>
+    <script src="<?php echo base_url('assets/js/app-settings.js')?>"></script>
 
 
 
@@ -1739,17 +1739,17 @@
     </script>
 
     <!-- Flatpickr -->
-    <script src="assets/vendor/flatpickr/flatpickr.min.js"></script>
-    <script src="assets/js/flatpickr.js"></script>
+    <script src="<?php echo base_url('assets/vendor/flatpickr/flatpickr.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/flatpickr.js')?>"></script>
 
     <!-- Global Settings -->
-    <script src="assets/js/settings.js"></script>
+    <script src="<?php echo base_url('assets/js/settings.js')?>"></script>
 
     <!-- Chart.js -->
-    <script src="assets/vendor/Chart.min.js"></script>
+    <script src="<?php echo base_url('assets/vendor/Chart.min.js')?>"></script>
 
     <!-- App Charts JS -->
-    <script src="assets/js/charts.js"></script>
+    <script src="<?php echo base_url('assets/js/charts.js')?>"></script>
 
     <!-- Chart Samples -->
     <script>
@@ -1874,9 +1874,9 @@
     </script>
 
     <!-- Vector Maps -->
-    <script src="assets/vendor/jqvmap/jquery.vmap.min.js"></script>
-    <script src="assets/vendor/jqvmap/maps/jquery.vmap.world.js"></script>
-    <script src="assets/js/vector-maps.js"></script>
+    <script src="<?php echo base_url('assets/vendor/jqvmap/jquery.vmap.min.js')?>"></script>
+    <script src="<?php echo base_urlassets/vendor/jqvmap/maps/jquery.vmap.world.js')?>"></script>
+    <script src="<?php echo base_urlassets/js/vector-maps.js')?>"></script>
 
 </body>
 
