@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -66,18 +65,6 @@
 </head>
 
 <body class="layout-default">
-
-
-
-
-
-
-
-
-
-
-
-
 
     <div class=""></div>
 
@@ -299,11 +286,6 @@
                 <div class="mdk-drawer-layout__content page">
 
 
-
-
-
-
-
                     <div class="container-fluid page__container">
                         <div class="page__heading d-flex align-items-center">
                             <div class="flex">
@@ -318,8 +300,6 @@
                             <a href="" class="btn btn-success ml-3">Add Product</a>
                         </div>
                     </div>
-
-
 
 
                     <div class="container-fluid page__container">
@@ -817,7 +797,7 @@
     <script src="assets/vendor/jquery.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="assets/vendor/popper.min.js')?>"></script>
+    <script src="assets/vendor/popper.min.js"></script>
     <script src="assets/vendor/bootstrap.min.js"></script>
 
     <!-- Simplebar -->
@@ -1003,7 +983,6 @@
 
         })()
     </script>
-
 
 </body>
 
