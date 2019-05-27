@@ -150,7 +150,7 @@
 
                         <div class="media align-items-center">
                           <div class="avatar avatar-xs mr-2">
-                            <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar"
+                            <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar"
                               class="avatar-img rounded-circle">
                           </div>
                           <div class="media-body">
@@ -188,7 +188,7 @@
                       <td>
 
                         <div class="media align-items-center">
-                          <img src="assets/images/avatar/green.svg" class="mr-2" alt="avatar" />
+                          <img src="<?php echo base_url('assets/images/avatar/green.svg')?>" class="mr-2" alt="avatar" />
                           <div class="media-body">
 
                             <span class="js-lists-values-employee-name">Connie Smith</span>
@@ -226,7 +226,7 @@
                         <div class="media align-items-center">
 
                           <div class="avatar avatar-xs mr-2">
-                            <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
+                            <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar"
                               class="avatar-img rounded-circle">
                           </div>
                           <div class="media-body">
@@ -269,7 +269,7 @@
 
                         <div class="media align-items-center">
                           <div class="avatar avatar-xs mr-2">
-                            <img src="assets/images/256_luke-porter-261779-unsplash.jpg" alt="Avatar"
+                            <img src="<?php echo base_url('assets/images/256_luke-porter-261779-unsplash.jpg')?>" alt="Avatar"
                               class="avatar-img rounded-circle">
                           </div>
                           <div class="media-body">
@@ -307,7 +307,7 @@
                       <td>
 
                         <div class="media align-items-center">
-                          <img src="assets/images/avatar/green.svg" class="mr-2" alt="avatar" />
+                          <img src="<?php echo base_url('assets/images/avatar/green.svg')?>" class="mr-2" alt="avatar" />
                           <div class="media-body">
 
                             <span class="js-lists-values-employee-name">Connie Smith</span>
@@ -345,7 +345,7 @@
                         <div class="media align-items-center">
 
                           <div class="avatar avatar-xs mr-2">
-                            <img src="assets/images/256_daniel-gaffey-1060698-unsplash.jpg" alt="Avatar"
+                            <img src="<?php echo base_url('assets/images/256_daniel-gaffey-1060698-unsplash.jpg')?>" alt="Avatar"
                               class="avatar-img rounded-circle">
                           </div>
                           <div class="media-body">

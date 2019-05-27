@@ -11,19 +11,19 @@
   <meta name="robots" content="noindex">
 
   <!-- Simplebar -->
-  <link href="<?php echo base_url('assets/vendor/simplebar.min.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('assets/vendor/simplebar.min.css') ?>" rel="stylesheet">
 
   <!-- App CSS -->
-  <link href="<?php echo base_url('css/app.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('css/app.rtl.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('css/app.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('css/app.rtl.css') ?>" rel="stylesheet">
 
   <!-- Material Design Icons -->
-  <link href="<?php echo base_url('css/material-icons.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('css/material-icons.rtl.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('css/material-icons.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('css/material-icons.rtl.css') ?>" rel="stylesheet">
 
   <!-- Font Awesome FREE Icons -->
-  <link href="<?php echo base_url('css/fontawesome.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('css/fontawesome.rtl.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('css/fontawesome.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('css/fontawesome.rtl.css') ?>" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133433427-1"></script>
@@ -67,13 +67,13 @@
   <!-- End Facebook Pixel Code -->
 
   <!-- Flatpickr -->
-  <link href="<?php echo base_url('demo/css/flatpickr.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('demo/css/flatpickr.rtl.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('demo/css/flatpickr-airbnb.css" rel="stylesheet')?>">
-  <link href="<?php echo base_url('demo/css/flatpickr-airbnb.rtl.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('demo/css/flatpickr.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('demo/css/flatpickr.rtl.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('demo/css/flatpickr-airbnb.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('demo/css/flatpickr-airbnb.rtl.css') ?>" rel="stylesheet">
 
   <!-- Vector Maps -->
-  <link href="<?php echo base_url('assets/vendor/jqvmap/jqvmap.min.css" rel="stylesheet')?>">
+  <link href="<?php echo base_url('assets/vendor/jqvmap/jqvmap.min.css') ?>" rel="stylesheet">
 
 </head>
 
@@ -101,7 +101,7 @@
 
             <!-- Navbar Brand -->
             <a href="index.html" class="navbar-brand ">
-              <img class="navbar-brand-icon" src="assets/images/stack-logo-white.svg" width="22" alt="Stack">
+              <img class="navbar-brand-icon" src="<?php echo base_url('assets/images/stack-logo-white.svg') ?>" width="22" alt="Stack">
 
               <span>Stack</span>
             </a>

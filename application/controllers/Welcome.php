@@ -30,4 +30,46 @@ class Welcome extends CI_Controller {
 		$this->load->view("admin/staff");
 		$this->load->view("admin/partials/footer");
 	}
+	public function analytics()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/analytics");
+		$this->load->view("admin/partials/footer");
+	}
+	public function trello()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/trello");
+		$this->load->view("admin/partials/footer");
+	}
+	public function project()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/project");
+		$this->load->view("admin/partials/footer");
+	}
+	public function calendar()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/calendar");
+		$this->load->view("admin/partials/footer");
+	}
+	public function chat()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/chat");
+		$this->load->view("admin/partials/footer");
+	}
+	public function course()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/course");
+		$this->load->view("admin/partials/footer");
+	}
+	public function lesson()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/lesson");
+		$this->load->view("admin/partials/footer");
+	}
 }

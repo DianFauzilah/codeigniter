@@ -49,7 +49,7 @@
                       </a>
                     </li>
                     <li class="sidebar-menu-item">
-                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/ecommerce')?>">
+                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/analytics')?>">
                         <span class="sidebar-menu-text">E-commerce</span>
                       </a>
                     </li>
@@ -64,22 +64,22 @@
                   </a>
                   <ul class="sidebar-submenu collapse" id="apps_menu">
                     <li class="sidebar-menu-item">
-                      <a class="sidebar-menu-button" href="app-trello.html">
+                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/trello')?>">
                         <span class="sidebar-menu-text">Trello</span>
                       </a>
                     </li>
                     <li class="sidebar-menu-item">
-                      <a class="sidebar-menu-button" href="app-projects.html">
+                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/project')?>">
                         <span class="sidebar-menu-text">Projects</span>
                       </a>
                     </li>
                     <li class="sidebar-menu-item">
-                      <a class="sidebar-menu-button" href="app-fullcalendar.html">
+                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/calendar')?>">
                         <span class="sidebar-menu-text">Event Calendar</span>
                       </a>
                     </li>
                     <li class="sidebar-menu-item">
-                      <a class="sidebar-menu-button" href="app-chat.html">
+                      <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/chat')?>">
                         <span class="sidebar-menu-text">Chat</span>
                       </a>
                     </li>
@@ -93,12 +93,12 @@
                       </a>
                       <ul class="sidebar-submenu collapse " id="course_menu">
                         <li class="sidebar-menu-item ">
-                          <a class="sidebar-menu-button" href="app-course.html">
+                          <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/course')?>">
                             <span class="sidebar-menu-text">Course</span>
                           </a>
                         </li>
                         <li class="sidebar-menu-item ">
-                          <a class="sidebar-menu-button" href="app-lesson.html">
+                          <a class="sidebar-menu-button" href="<?php echo base_url('index.php/welcome/lesson')?>">
                             <span class="sidebar-menu-text">Lesson</span>
                           </a>
                         </li>
@@ -579,7 +579,11 @@
     Courses('#coursesChart')
 
   })()
+
+
   </script>
+
+
 
   <!-- Vector Maps -->
   <script src="<?php echo base_url('assets/vendor/jqvmap/jquery.vmap.min.js')?>"></script>
