@@ -72,4 +72,70 @@ class Welcome extends CI_Controller {
 		$this->load->view("admin/lesson");
 		$this->load->view("admin/partials/footer");
 	}
+	public function stories()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/stories");
+		$this->load->view("admin/partials/footer");
+	}
+	public function invoice()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/invoice");
+		$this->load->view("admin/partials/footer");
+	}
+	public function pricing()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/pricing");
+		$this->load->view("admin/partials/footer");
+	}
+	public function account()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/edit-account");
+		$this->load->view("admin/partials/footer");
+	}
+	public function user()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/user");
+		$this->load->view("admin/partials/footer");
+	}
+	public function digital()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/digital");
+		$this->load->view("admin/partials/footer");
+	}
+	public function login()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/login");
+		$this->load->view("admin/partials/footer");
+	}
+	public function boxed()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/boxed");
+		$this->load->view("admin/partials/footer");
+	}
+	public function fluid()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/fluid");
+		$this->load->view("admin/partials/footer");
+	}
+	public function fixed()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/fixed");
+		$this->load->view("admin/partials/footer");
+	}
+	public function mini()
+	{
+		$this->load->view("admin/partials/header");
+		$this->load->view("admin/mini");
+		$this->load->view("admin/partials/footer");
+	}
 }
